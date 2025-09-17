@@ -20,7 +20,7 @@
   
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="{{ route('welcome') }}">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="{{ route('alunos.index') }}">Lista Alunos</a></li>
         <li class="nav-item"><a class="nav-link" href="{{ route('alunos.create') }}">Cadastrar Aluno</a></li>
         <li class="nav-item"><a class="nav-link" href="{{ route('turmas.index') }}">Lista Turmas</a></li>
